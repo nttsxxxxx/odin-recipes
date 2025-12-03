@@ -14,24 +14,37 @@ body {
 	font-family: "gg sans Normal", sans-serif;
 	display: grid;
 	place-items: center;
-}
-.spread {
-	text-align: center;	
 	list-style-position: inside;
+	text-align: center;	
+}
+.brisket.back {
+	background-image: url('recipes/stewed-brisket.jpg')
+}
+.stroganov.back {
+	background-image: url('https://live.staticflickr.com/2144/1580394718_6aac53aa86_k.jpg')
+}
+.chocochip.back {
+	background-image: url('recipes/cookie.jpg');
 }
 ul {
 	border: 5px;
 	padding: 15px;
 	border-radius: 25px;
-	background-color: #020017;
+	/*background-color: #020017;*/
 	border: 8px;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 }
 ol {
 	border-radius: 25px;
-	background-color: #020017;
+	/*background-color: #020017;*/
 	border: 5px;
 	padding: 15px;
 	border: 8px;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 }
 li {
 	background-color: #16151f;
@@ -49,11 +62,14 @@ li {
 	overflow: hidden;
 }
 .card {
-	background-color: #020017;
+	/*background-color: #020017;*/
 	border-radius: 15px;
 	font-family: "Queensides", sans-serif;
 	font-size: 25px;
 	margin: 20px;
 	padding: 23px;
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);	
 
 }
